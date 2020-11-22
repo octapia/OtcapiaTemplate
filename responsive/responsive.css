@@ -1,0 +1,122 @@
+@media (min-width: 375px) and (max-width: 667px) {
+    .col-20,
+    .col-16,
+    .col-25,
+    .col-33,
+    .col-50,
+    .col-60 {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    /* logo  */
+    .logo {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    /* Header Menu */
+    .navList li a.active {
+        margin-left: 15px;
+        
+    }
+    /* Header Right */
+    .topRightIcon {
+        float: none;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* banner */
+    .bannderHeading {
+        position: absolute;
+        right: 2%;
+        top: 50%;
+        transform: translate(-2%,-50%);
+    }
+    .bannderHeading h1 {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .bannderHeading p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    #shopNow {
+        width: 105px;
+        height: 36px;
+        font-size: 13px;
+    }
+    .sliderPos {
+        bottom: 20px;
+    }
+    .slide {
+        width: 6px;
+        height: 6px;
+    }
+    /* intro section */
+    #intro {
+        padding: 60px 0;
+    }
+    .introMeta h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .introMeta p {
+        margin-bottom: 10px;
+        line-height: 22px;
+    }
+    #aboutUs {
+        width: 105px;
+        height: 36px;
+        font-size: 13px;
+        margin: 10px;
+    }
+    /* portfolio */
+    #portfolio {
+        margin-top: 0;
+    }
+    .pSingleBox {
+        padding-bottom: 30px;
+    }
+    /* latest project */
+    .secTitleHead h2 {
+        font-size: 25px;
+    }
+    .secMenu .secListItem li a {
+        margin-left: 15px;
+    }
+    .gridSingleBox .icons {
+        left: 0;
+        top: 0;
+    }
+    .gridSingleBox .icons a {
+        margin-top: 50%;
+        transform: translateY(-50%);
+    }
+    .gridImg .activeHover {
+        opacity: 0;
+    }
+    .aboutSilgleBox {
+        margin-bottom: 23px;
+    }
+    /* Client Says */
+    .cMainBox {
+        margin-bottom: 30px;
+    }
+    /* latest blog */
+    .blogBoxImg .blogHover {
+        bottom: 4px;
+    }
+    .blogBoxImg .blogHoverActive {
+        bottom: 3px;
+        opacity: 0;
+    }
+    /* best for best */
+    .serviceSingleBox .serviceInfo {
+        margin: 30px 0;
+    }
+    .BFB-l {
+        float: none;
+        justify-content: center;
+    }
+}
