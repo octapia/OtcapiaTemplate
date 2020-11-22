@@ -816,7 +816,7 @@ section {
     align-items: center;
 }
 .iconLeft {
-    width: 35px;
+    width: 30px;
 }
 .iconLeft i {
     font-size: 18px;
@@ -880,6 +880,7 @@ section {
 }
 .inputs {
     margin-bottom: 20px;
+    display: flex;
 }
 .inputs > input {
     padding: 12px 10px;
@@ -890,6 +891,7 @@ section {
     outline: none;
     background: #f6f6f6;
     transition: all .3s ease-in-out;
+    width: 50%;
 }
 .inputs input[type="text"] {
     margin-right: 17px;
@@ -909,6 +911,7 @@ section {
     font-family: 'Open sans';
     font-size: 14px;
     border: 1px solid #ddd;
+    outline: none;
     border-radius: 3px;
     background: #f6f6f6;
     color: #333;

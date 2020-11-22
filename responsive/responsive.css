@@ -1,6 +1,8 @@
+/* portrait mobile Device  */
+
 @media (min-width: 375px) and (max-width: 667px) {
-    .col-20,
     .col-16,
+    .col-20,    
     .col-25,
     .col-33,
     .col-50,
@@ -118,5 +120,45 @@
     .BFB-l {
         float: none;
         justify-content: center;
+    }
+    .serviceMidImg {
+        margin-bottom: 19px;
+    }
+    #buildApplication {
+        display: block;
+        width: 260px;
+        height: 40px;
+        margin: auto;
+    }
+    .BFB-R {
+        justify-content: center;
+    }
+    .serviceSingleBox .serviceInfo p {
+        font-size: 14px;
+    }
+    /* contact style */
+    .contactInfo {
+        margin-bottom: 30px;
+    }
+    .inputs > input {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+    
+    /* .inputs input[type="text"] {
+        margin-bottom: 20px;
+    } */
+
+    /* foot style */
+    .footWrap {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 768px) {
+    .inputs input[type="text"] {
+        margin-right: 10px;
+    }
+    .inputs > input {
+        width: 50%;
     }
 }
