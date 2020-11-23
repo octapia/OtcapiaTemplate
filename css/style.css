@@ -114,7 +114,7 @@ section {
     font-weight: 600;
     font-family: 'Open sans';
     font-size: 14px;
-    color: #333;
+    color: #15273E;
     line-height: 25px;
 }
 .navList li a.active {
@@ -260,6 +260,7 @@ section {
 .introWrapper {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .introMeta {
     overflow: hidden;
@@ -881,6 +882,7 @@ section {
 .inputs {
     margin-bottom: 20px;
     display: flex;
+    flex-wrap: nowrap;
 }
 .inputs > input {
     padding: 12px 10px;
@@ -953,19 +955,21 @@ section {
     overflow: hidden;
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 .galleryImg {
     width: 20%;
 }
 .galleryImg img {
     width: 100%;
+    cursor: pointer;
 }
 /* ========================
     FOOTER STYLE
 ===========================*/
 #footer{
     padding: 60px 0px 30px 0px;
-    margin-top: -10px;
+    margin-top: -5px;
     background: #1E2127;
 }
 .footSecTitleHead {
@@ -1104,10 +1108,19 @@ section {
 }
 .copyRight {
     overflow: hidden;
+    position: relative;
+}
+.copyRight::before {
+    content: "";
+    width: 45%;
+    height: 1px;
+    background: #dddddd38;
+    margin: auto;
 }
 .copyRight p {
     text-align: center;
     color: #fff;
     font-size: 13px;
     font-weight: 400;
+    padding-top: 15px;
 }
