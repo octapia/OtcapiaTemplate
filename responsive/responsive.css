@@ -559,7 +559,7 @@
     .galleryImg {
         width: 100%;
         margin-top: 10px;
-		padding: 0 15px;
+        padding: 0 15px;
     }
     /* footer */
     .footSecTitleHead h2 {
@@ -586,5 +586,373 @@
     }
     .footSocialIcons a i {
         font-size: 14px;
+    }
+}
+@media (max-width: 319px) {
+    .col-16,
+    .col-20,    
+    .col-25,
+    .col-33,
+    .col-50,
+    .col-60 {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    /* Section Heading */
+    .secTitleHead {
+        margin-bottom: 30px;
+    }
+    .secTitleHead h2 {
+        font-size: 20px;
+        padding-bottom: 12px;
+        letter-spacing: 0px;
+    }
+    .secTitleHead h2::before {
+        height: 2px;
+    }
+    /* logo  */
+    .logo {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    /* Header Menu */
+    .navList li a {
+    margin-left: 7px;
+    font-size: 11px;
+}
+    .navList li a.active:hover {
+        color: #72A8F9;
+    }
+    .navList li a.active {
+        margin-left: 7px;
+        color: #15273E;
+        font-size: 11px;
+    }
+    /* Header Right */
+    .topRightIcon {
+        float: none;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* banner */
+    .bannderHeading {
+        right: 0%;
+        transform: translateY(-50%);
+    }
+    .bannderHeading h1 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .bannderHeading p {
+        font-size: 11px;
+        margin-bottom: 8px;
+        letter-spacing: 0px;
+    }
+    #shopNow {
+        width: 75px;
+        height: 24px;
+        font-size: 9px;
+    }
+    .sliderPos {
+        bottom: 10px;
+    }
+    .slide {
+        width: 5px;
+        height: 5px;
+    }
+    /* intro */
+    .introMeta {
+        overflow: hidden;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .introMeta h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .introMeta p {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    #aboutUs {
+        width: 75px;
+        height: 24px;
+        font-size: 9px;
+    }
+    /* portfolio */
+    #portfolio {
+        margin-top: -40px;
+        padding-top: 60px;
+    }
+    .pSingleBox {
+        margin-bottom: 25px;
+    }
+    .pSingleBoxIcon {
+        margin-bottom: 5px;
+    }
+    .pSingleBoxIcon i {
+        font-size: 40px;
+    }
+    .pSingleBoxMeta h4 {
+        margin-bottom: 5px;
+    }
+    .pSingleBoxMeta h4 a {
+        font-size: 16px;
+    }
+    .pSingleBoxMeta p {
+        font-size: 12px;
+    }
+    /* latest project */
+    .secMenu {
+        width: 90%;
+    }
+    /* latest prject menu */
+    .secMenu .secListItem li a {
+        margin-left: 9px;
+        font-size: 8px;
+        padding-bottom: 0px;
+    }
+    .secMenu .secListItem li a.active {
+        color: #15273E;
+    }
+    .secMenu .secListItem li a:hover {
+        color: #72A8F9;
+    }
+    .secMenu .secListItem li a.active::before {
+        opacity: 0;
+    }
+    .secMenu .secListItem li a.active:hover::before {
+        opacity: 1;
+    }
+    .gridSingleBox .icons {
+        left: 0;
+        top: 0;
+    }
+    .gridImgInfo {
+        padding: 20px 0px;
+    }
+    .gridImgInfo h5 a {
+        font-size: 12px;
+    }
+    .gridImgInfo p {
+        display: flex;
+        float: right;
+        align-items: center;
+        padding-top: 3px;
+    }
+    .gridImgInfo p span {
+        font-size: 12px;
+        margin-left: 9px;
+    }
+    .gridImgInfo p span.fav {
+        font-size: 12px;
+        padding-top: 3px;
+    }
+    .gridSingleBox .icons a {
+        margin-top: 50%;
+        transform: translateY(-50%);
+    }
+    .gridImg .activeHover {
+        opacity: 0;
+    }
+    .aboutSilgleBox {
+        margin-bottom: 23px;
+    }
+    .loadMoreBtn #loadMore {
+        width: 170px;
+        height: 37px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        font-weight: 400;
+    }
+    /* about */
+    .aboutSilgleBox h5 {
+        font-size: 27px;
+    }
+    .aboutSilgleBox span {
+        font-size: 13px;
+    }
+    /* testimonial */
+    .cMainBox {
+        margin-bottom: 30px;
+    }
+    .cComment {
+        border: 1px solid #E7E9EC;
+        padding: 10px 10px 32px 10px;
+    }
+    .cComment p {
+        font-size: 11px;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .cPrf {
+        width: 166px;
+        bottom: 8px;
+        margin-left: 7px;
+    }
+    .cPrf h6 {
+        font-size: 10px;
+        margin-right: 6px;
+    }
+    .cPrf .cTitle {
+        font-size: 11px;
+        padding-left: 8px;
+    }
+    /* latest blog */
+    .blogSingleBox {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    .blogBoxImg .blogHover {
+        bottom: 4px;
+    }
+    .blogBoxImg .blogHoverActive {
+        bottom: 3px;
+        opacity: 0;
+    }
+    .imgInfo .dates {
+        letter-spacing: 0px;
+        font-size: 10px;
+    }
+    .imgInfo .dates .comment a {
+        margin-left: 10px;
+        font-size: 6px;
+    }
+    .imgInfo .dates .comment a i {
+        font-size: 10px;
+        color: #333;
+    }
+    .imgInfo h2 {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .imgInfo p {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    /* best for best */
+    .serviceSingleBox .serviceInfo {
+        margin: 30px 0;
+    }
+    .BFB-l {
+        float: none;
+        justify-content: center;
+    }
+    .serviceMidImg {
+        margin-bottom: 19px;
+    }
+    #buildApplication {
+        width: 165px;
+        height: 30px;
+        font-size: 10px;
+        letter-spacing: 0;
+        margin: auto;
+        display: block;
+    }
+    .BFB-R {
+        justify-content: center;
+    }
+    .serviceSingleBox .serviceInfo p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    /* contact */
+    .contactInfo {
+        margin-bottom: 30px;
+    }
+    .contactInfo h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .contactInfo h2::before {
+        height: 2px;
+    }
+    .contactInfo p {
+        font-size: 13px;
+    }
+    .addressInfo {
+        margin-top: 15px;
+        font-size: 9px;
+    }
+    .addressInfo i {
+        font-size: 15px;
+        width: 22px;
+    }
+    .inputs {
+        flex-wrap: wrap;
+    }
+    .inputs > input {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+    .inputs input[type="text"] {
+        margin-right: 0;
+    }
+    #sendMsg {
+        width: 90%;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+    /* awesome gallery */
+    .galleryImg {
+        width: 100%;
+        margin-top: 10px;
+        padding: 0 15px;
+    }
+    /* footer */
+    #footer {
+        margin-top: -4px;
+    }
+    .footSecTitleHead h2 {
+        font-size: 14px;
+        margin-bottom: 8px;
+        letter-spacing: 0px;
+    }
+    .footWrap {
+        margin-bottom: 40px;
+    }
+    .footHead h4 {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    .footInfo span {
+        font-size: 11px;
+    }
+    .footInfo span i {
+        font-size: 18px;
+        width: 25px;
+    }
+    .footSocialIcons a {
+        width: 25px;
+        height: 25px;
+        margin-right: 13px;
+    }
+    .footSocialIcons a:last-child {
+        margin-right: 0px;
+    }
+    .footSocialIcons a i {
+        font-size: 13px;
+    }
+    /* Foot Menu */
+    .footInfo .footNav li a {
+        font-size: 13px;
+    }
+    .footInfo .footNav li a i {
+        font-size: 14px;
+        margin-right: 11px;
+    }
+    /* foot news */
+    .footdesc p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    /* copy right */
+    .copyRight p {
+        font-size: 11px;
     }
 }

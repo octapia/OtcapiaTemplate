@@ -465,6 +465,9 @@ section {
 .gridImgInfo {
     overflow: hidden;
     padding: 20px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .gridImgInfo h5 {
     font-size: 15px;
@@ -554,7 +557,7 @@ section {
 }
 .loadMoreBtn #loadMore:hover {
     background-color: #c6c6c6;
-    border-bottom: 4px solid #bfbdbd;
+    border-bottom: 4px solid #b0b0b0;
 }
 /* ========================
     ABOUT STYLE
@@ -592,6 +595,7 @@ section {
 .cComment {
     border: 1px solid #E7E9EC;
     padding: 30px 30px 55px 30px;
+    border-radius: 3px;
 }
 .cComment p {
     font-size: 15px;
@@ -629,7 +633,7 @@ section {
     position: absolute;
     width: 8px;
     height: 1px;
-    background: #999;
+    background: #E7E9EC;
     left: 0;
     top: 50%;
     transform: translateX(-50%);
@@ -1067,8 +1071,12 @@ section {
     align-items: center;
     color: #fff;
     line-height: 35px;
+    transition: all .3s ease-in-out;
 }
-.footInfo .footNav li i {
+/* .footInfo .footNav li:hover {
+    transform: translateX(10px);
+} */
+.footInfo .footNav li a i {
     font-size: 16px;
     margin-right: 15px;
 }
@@ -1080,6 +1088,7 @@ section {
 }
 .footInfo .footNav li a:hover {
     color: #4B8BF6;
+    transform: translateX(10px);
 }
 .footdesc {
     display: flex;
