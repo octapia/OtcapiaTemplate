@@ -81,7 +81,7 @@ section {
 /* ===================
     HEADER STYLE
  ====================== */
-#header {
+.header {
     margin: 8px 0;
 }
 /* logo style */
@@ -162,12 +162,12 @@ section {
 /* ====================
     BANNER STYLE
 ======================= */
-#banner {
+.banner {
     overflow: hidden; 
     padding: 0px;
 }
 
-#banner img {
+.banner img {
     width: 100%;
     max-height: 600px;
 }
@@ -194,7 +194,7 @@ section {
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
-#shopNow {
+.shopNow {
     width: 120px;
     height: 41px;
     border: 1px solid #333;
@@ -209,11 +209,11 @@ section {
     border-radius: 3px;
     position: relative;
 }
-#shopNow:hover {
+.shopNow:hover {
     color: #fff;
     box-shadow: 0px 2px 10px -2px #15273E;
 }
-#shopNow:before {
+.shopNow:before {
     content: "";
     position: absolute;
     background: #15273E;
@@ -226,7 +226,7 @@ section {
     transform-origin: right;
     z-index: -1;
 }
-#shopNow:hover:before {
+.shopNow:hover:before {
     width: 100%;
     color: #fff;
     left: 0;
@@ -252,7 +252,7 @@ section {
 /* ============================
     INTRO STYLE
 ===============================*/
-#intro {
+.intro {
     position: relative;
     padding: 0;
     padding-top: 60px; 
@@ -278,7 +278,7 @@ section {
     line-height: 23px;
     font-size: 15px;
 }
-#aboutUs {
+.aboutUs {
     width: 120px;
     height: 41px;
     font-size: 14px;
@@ -294,12 +294,12 @@ section {
     
     margin: 10px 
 }
-#aboutUs:hover {
+.aboutUs:hover {
     border: 1px solid #15273E;
     color: #fff;
     box-shadow: 0px 2px 10px -2px #15273E;
 }
-#aboutUs:before {
+.aboutUs:before {
     content: "";
     position: absolute;
     background: #15273E;
@@ -312,7 +312,7 @@ section {
     transform-origin: right;
     z-index: -1;
 }
-#aboutUs:hover:before {
+.aboutUs:hover:before {
     width: 100%;
     left: 0;
 }
@@ -322,7 +322,7 @@ section {
 /* ========================
     PORTFOLIO STYLE
 ===========================*/
-#portfolio {
+.portfolio {
     background-color: #F6F6F6;
     padding-top: 100px;
     padding-bottom: 60px;
@@ -363,7 +363,7 @@ section {
 /* ========================
     PROJECT STYLE
 ===========================*/
-#project {
+.project {
     overflow: hidden;
 }
 .secTitleHead {
@@ -540,7 +540,7 @@ section {
     overflow: hidden;
     text-align: center;
 }
-.loadMoreBtn #loadMore {
+.loadMoreBtn .loadMore {
     width: 250px;
     height: 46px;
     border: none;
@@ -555,14 +555,14 @@ section {
     border-bottom: 4px solid #d9d9d9;
     transition: all .3s ease-in-out;
 }
-.loadMoreBtn #loadMore:hover {
+.loadMoreBtn .loadMore:hover {
     background-color: #c6c6c6;
     border-bottom: 4px solid #b0b0b0;
 }
 /* ========================
     ABOUT STYLE
 ===========================*/
-#about {
+.about {
     background: #f6f6f6;
 }
 .aboutContentWrapper {
@@ -587,6 +587,7 @@ section {
 .tContentWrapper {
     overflow: hidden;
 }
+/* Testimonial style */
 .cMainBox {
     overflow: hidden;
     padding-bottom: 30px;
@@ -641,7 +642,7 @@ section {
 /* ========================
     BLOG STYLE
 ===========================*/
-#blog {
+.blog {
     background: #f6f6f6;
 }
 .blogSingleBox {
@@ -794,7 +795,7 @@ section {
     width: 100%;
 }
 
-#buildApplication {
+.buildApplication {
     width: 272px;
     height: 45px;
     border: 2px solid #4B8BF6;
@@ -810,7 +811,7 @@ section {
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
-#buildApplication:hover {
+.buildApplication:hover {
     background: transparent;
     border: 2px solid #4B8BF6;
     color: #15273E;
@@ -829,7 +830,7 @@ section {
 /* ========================
     CONTACT STYLE
 ===========================*/
-#contact {
+.contact {
     background: #f6f6f6;
 }
 .contactInfo {
@@ -927,7 +928,7 @@ section {
 .msgFromBox textarea:focus {
     box-shadow: 0px 2px 17px -9px #5d718a;
 }
-#sendMsg {
+.sendMsg {
     display: block;
     width: 100%;
     height: 40px;
@@ -942,17 +943,17 @@ section {
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
-#sendMsg:focus {
+.sendMsg:focus {
     border:none;
 }
-#sendMsg:hover {
+.sendMsg:hover {
     background: #15273e;
     box-shadow: 0px 5px 15px -5px #15273ed9;
 }
 /* ========================
     GALLARY STYLE
 ===========================*/
-#gallery {
+.gallery {
     padding: 60px 0px 0px 0px;
 }
 .galleryWrapper {
@@ -971,7 +972,7 @@ section {
 /* ========================
     FOOTER STYLE
 ===========================*/
-#footer{
+.footer{
     padding: 60px 0px 30px 0px;
     margin-top: -5px;
     background: #1E2127;
@@ -1133,3 +1134,7 @@ section {
     font-weight: 400;
     padding-top: 15px;
 }
+
+/* =================
+	END STYLE
+==================*/

@@ -36,7 +36,7 @@
         margin-bottom: 4px;
     }
     /* portfolio */
-    #portfolio {
+    .portfolio {
         margin-top: -80px;
     }
     /* latest project */
@@ -85,7 +85,7 @@
     .serviceMidImg {
         margin-bottom: 19px;
     }
-    #buildApplication {
+    .buildApplication {
         display: block;
         width: 260px;
         height: 40px;
@@ -151,7 +151,7 @@
         font-size: 15px;
         margin-bottom: 15px;
     }
-    #shopNow {
+    .shopNow {
         width: 95px;
         height: 30px;
         font-size: 13px;
@@ -177,14 +177,14 @@
         margin-bottom: 10px;
         line-height: 22px;
     }
-    #aboutUs {
+    .aboutUs {
         width: 105px;
         height: 36px;
         font-size: 13px;
         margin: 10px;
     }
     /* portfolio */
-    #portfolio {
+    .portfolio {
         margin-top: -70px;
     }
     .pSingleBox {
@@ -248,7 +248,7 @@
     .serviceMidImg {
         margin-bottom: 19px;
     }
-    #buildApplication {
+    .buildApplication {
         display: block;
         width: 260px;
         height: 40px;
@@ -282,7 +282,7 @@
         margin-right: 0px;
     }
     /* foot style */
-    #footer {
+    .footer {
         margin-top: -4px;
     }
     .footWrap {
@@ -320,9 +320,9 @@
     }
     /* Header Menu */
     .navList li a {
-    margin-left: 15px;
-    font-size: 12px;
-}
+		margin-left: 15px;
+		font-size: 12px;
+	}
     .navList li a.active:hover {
         color: #72A8F9;
     }
@@ -351,7 +351,7 @@
         margin-bottom: 8px;
         letter-spacing: 0px;
     }
-    #shopNow {
+    .shopNow {
         width: 95px;
         height: 30px;
         font-size: 11px;
@@ -377,13 +377,13 @@
         font-size: 14px;
         margin-bottom: 20px;
     }
-    #aboutUs {
+    .aboutUs {
         width: 95px;
         height: 30px;
         font-size: 11px;
     }
     /* portfolio */
-    #portfolio {
+    .portfolio {
         margin-top: -56px;
     }
     .pSingleBox {
@@ -510,7 +510,7 @@
     .serviceMidImg {
         margin-bottom: 19px;
     }
-    #buildApplication {
+    .buildApplication {
         width: 245px;
         height: 36px;
         font-size: 12px;
@@ -549,7 +549,7 @@
     .inputs input[type="text"] {
         margin-right: 0;
     }
-    #sendMsg {
+    .sendMsg {
         width: 95%;
         height: 38px;
         font-size: 14px;
@@ -620,9 +620,9 @@
     }
     /* Header Menu */
     .navList li a {
-    margin-left: 7px;
-    font-size: 11px;
-}
+		margin-left: 7px;
+		font-size: 11px;
+	}
     .navList li a.active:hover {
         color: #72A8F9;
     }
@@ -651,7 +651,7 @@
         margin-bottom: 8px;
         letter-spacing: 0px;
     }
-    #shopNow {
+    .shopNow {
         width: 75px;
         height: 24px;
         font-size: 9px;
@@ -677,13 +677,13 @@
         font-size: 13px;
         margin-bottom: 8px;
     }
-    #aboutUs {
+    .aboutUs {
         width: 75px;
         height: 24px;
         font-size: 9px;
     }
     /* portfolio */
-    #portfolio {
+    .portfolio {
         margin-top: -40px;
         padding-top: 60px;
     }
@@ -845,7 +845,7 @@
     .serviceMidImg {
         margin-bottom: 19px;
     }
-    #buildApplication {
+    .buildApplication {
         width: 165px;
         height: 30px;
         font-size: 10px;
@@ -892,7 +892,7 @@
     .inputs input[type="text"] {
         margin-right: 0;
     }
-    #sendMsg {
+    .sendMsg {
         width: 90%;
         height: 30px;
         font-size: 10px;
@@ -905,7 +905,7 @@
         padding: 0 15px;
     }
     /* footer */
-    #footer {
+    .footer {
         margin-top: -4px;
     }
     .footSecTitleHead h2 {
@@ -956,3 +956,6 @@
         font-size: 11px;
     }
 }
+/* ================
+	END RESPONSIVE
+==================*/
